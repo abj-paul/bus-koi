@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বাস কই? - Privacy-Oriented Bus Tracking System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-bus"></i> বাস কই?
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="floating-bus bus-1"><i class="fas fa-bus"></i></div>
+        <div class="floating-bus bus-2"><i class="fas fa-map-marker-alt"></i></div>
+        <div class="floating-bus bus-3"><i class="fas fa-route"></i></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">বাস কই?</h1>
+                <p class="hero-subtitle">A Privacy-Oriented Bus Tracking System</p>
+                <p class="hero-description">
+                    Revolutionizing university transportation with AI-powered crowd-sourced tracking that respects your privacy while ensuring you never miss your bus again.
+                </p>
+                
+                <div class="recognition-badges">
+                    <div class="badge-item">
+                        <div class="badge-icon"><i class="fas fa-trophy"></i></div>
+                        <div>Innovation Fest 2024</div>
+                    </div>
+                    <div class="badge-item">
+                        <div class="badge-icon"><i class="fas fa-medal"></i></div>
+                        <div>DU Research Fest 2024</div>
+                    </div>
+                    <div class="badge-item">
+                        <div class="badge-icon"><i class="fas fa-award"></i></div>
+                        <div>Funded Project</div>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#about" class="btn btn-hero btn-primary-hero">
+                        <i class="fas fa-rocket"></i> Explore Project
+                    </a>
+                    <a href="#contact" class="btn btn-hero btn-outline-hero">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down fa-2x"></i>
+        </div>
+    </section>
+
+    <!-- News & Achievements -->
+    <section id="news" class="section-light">
+        <div class="container">
+            <h2 class="section-title" style="color: #333;">Latest News & Achievements</h2>
+            <div class="row">
+                <!-- NCP Collaboration -->
+                <div class="col-lg-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-header">
+                            <div class="news-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="news-date">2025</div>
+                        </div>
+                        <h4>NCP Bangladesh Collaboration</h4>
+                        <p class="news-summary">National Citizen's Party (NCP) members have expressed interest in acquiring our bus tracking system, marking a significant milestone in our project's commercial viability.</p>
+                        <div class="news-details">
+                            <h6>Collaboration Highlights:</h6>
+                            <ul>
+                                <li>Commercial interest from established tech organization</li>
+                                <li>Potential for nationwide deployment</li>
+                                <li>Validation of our technical approach and market need</li>
+                                <li>Ongoing discussions for technology transfer</li>
+                            </ul>
+                            <h6>Current Status:</h6>
+                            <p>Active development continues with NCP's guidance and requirements. This collaboration represents a major step toward making our solution available to universities across Bangladesh.</p>
+                        </div>
+                        <div class="news-tag">
+                            <span class="badge bg-danger">Partnership</span>
+                            <span class="badge bg-info">Commercial</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Research Funding -->
+                <div class="col-lg-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-header">
+                            <div class="news-icon">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <div class="news-date">2024</div>
+                        </div>
+                        <h4>Research Funding Secured</h4>
+                        <p class="news-summary">Received official research funding from Dr. Naushin Nower, Professor at IIT, University of Dhaka, enabling continued development and research.</p>
+                        <div class="news-details">
+                            <h6>Funding Details:</h6>
+                            <ul>
+                                <li>Software project development grant approved</li>
+                                <li>Support for advanced AI/ML implementation</li>
+                                <li>Resources for user testing and validation</li>
+                                <li>Infrastructure support for cloud deployment</li>
+                            </ul>
+                            <h6>Supervisor:</h6>
+                            <p><strong><a href="https://iit.du.ac.bd/about_iit/individual_teacher/69">Dr. Naushin Nower</a></strong><br>
+                            Associate Professor<br>
+                            Institute of Information Technology<br>
+                            University of Dhaka</p>
+                        </div>
+                        <div class="news-tag">
+                            <span class="badge bg-success">Funding</span>
+                            <span class="badge bg-primary">Support</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Innovation Fest 2024 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-header">
+                            <div class="news-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="news-date">2024</div>
+                        </div>
+                        <h4>Innovation Fest 2024</h4>
+                        <p class="news-summary">Successfully presented our privacy-oriented bus tracking system at the Innovation Fest 2024, showcasing our AI-powered solution to the academic community.</p>
+                        <div class="news-details">
+                            <h6>Key Highlights:</h6>
+                            <ul>
+                                <li>Demonstrated real-time bus tracking capabilities</li>
+                                <li>Presented privacy-preserving location sharing technology</li>
+                                <li>Received positive feedback from judges and attendees</li>
+                                <li>Showcased AI clustering algorithm for noisy data processing</li>
+                            </ul>
+                        </div>
+                        <div class="news-tag">
+                            <span class="badge bg-primary">Innovation</span>
+                            <span class="badge bg-warning"><a href="resources/বাস কই_- Short Summary.png">Pamplet</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DU Research Fest 2024 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-header">
+                            <div class="news-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="news-date">2024</div>
+                        </div>
+                        <h4>DU Research Fest 2024</h4>
+                        <p class="news-summary">Participated in the prestigious DU Research Fest 2024, presenting our research on crowd-sourced transportation tracking with privacy preservation.</p>
+                        <div class="news-details">
+                            <h6>Research Focus:</h6>
+                            <ul>
+                                <li>Privacy-oriented data collection methodologies</li>
+                                <li>Machine learning applications in transportation</li>
+                                <li>User behavior analysis in crowd-sourced systems</li>
+                                <li>Cost-effective alternatives to hardware-based tracking</li>
+                            </ul>
+                        </div>
+                        <div class="news-tag">
+                            <span class="badge bg-info">Research</span>
+                            <span class="badge bg-warning"><a href="resources/Bus Koi - Poster v0.2.png">Poster</a></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Initiation -->
+                <div class="col-lg-6 mb-4">
+                    <div class="news-card">
+                        <div class="news-header">
+                            <div class="news-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="news-date">2022</div>
+                        </div>
+                        <h4>Project Initiation</h4>
+                        <p class="news-summary">In last part of 2022, this project began as a class work by Ahnaf Mubasshir. The project received full-grades.</p>
+                        <div class="news-details">
+                            <h6>Funding Details:</h6>
+                            <ul>
+                                <li>Web Version developed for Proof-of-Concept</li>
+                                <li>Ideation with Abhijit Paul</li>
+                                <li>Frontend and Backend Development Completed</li>
+                                <li>Firebase and Map API Integration Completed</li>
+                            </ul>
+                        </div>
+                        <div class="news-tag">
+                            <span class="badge bg-success">Initiation</span>
+                            <span class="badge bg-primary">MVP</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Timeline
+            <div class="row mt-5 section-timeline">
+                <div class="col-12">
+                    <h3 class="text-center mb-4" style="color: #333;">Project Timeline</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5>Project Inception</h5>
+                                <p>Initial research and problem identification</p>
+                                <small class="text-muted">Early 2024</small>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5>Innovation Fest 2024</h5>
+                                <p>First public presentation of the project</p>
+                                <small class="text-muted">Mid 2024</small>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5>DU Research Fest 2024</h5>
+                                <p>Academic research presentation</p>
+                                <small class="text-muted">Mid 2024</small>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h5>Research Funding</h5>
+                                <p>Official funding secured from IIT, DU</p>
+                                <small class="text-muted">Late 2024</small>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker active"></div>
+                            <div class="timeline-content">
+                                <h5>NCP Collaboration</h5>
+                                <p>Commercial interest and ongoing development</p>
+                                <small class="text-muted">Current</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Problem & Solution -->
+    <section id="about" class="problem-solution">
+        <div class="container">
+            <h2 class="section-title" style="color: #333;">The Challenge We're Solving</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="problem-card">
+                        <h3><i class="fas fa-exclamation-triangle"></i> The Problem</h3>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-clock text-warning"></i> DU students lose <strong>100 hours per day</strong> due to missing buses</li>
+                            <li><i class="fas fa-users text-info"></i> <strong>94% of non-resident students</strong> need bus tracking</li>
+                            <li><i class="fas fa-comments text-success"></i> Messenger groups are ineffective for immediate needs</li>
+                            <li><i class="fas fa-dollar-sign text-danger"></i> Hardware solutions are too costly to implement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="solution-card">
+                        <h3><i class="fas fa-lightbulb"></i> Our Solution</h3>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-shield-alt"></i> <strong>Privacy-first</strong> crowd-sourced tracking</li>
+                            <li><i class="fas fa-brain"></i> <strong>AI clustering</strong> to identify bus locations</li>
+                            <li><i class="fas fa-mobile-alt"></i> <strong>Real-time notifications</strong> and alerts</li>
+                            <li><i class="fas fa-heart"></i> <strong>User-friendly</strong> interface for all stakeholders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats-section section">
+        <div class="container">
+            <h2 class="section-title">Impact by Numbers</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <span class="stat-number">100</span>
+                        <div class="stat-label">Hours Saved Daily</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <span class="stat-number">94%</span>
+                        <div class="stat-label">Student Demand</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <span class="stat-number">2</span>
+                        <div class="stat-label">Major Exhibitions</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-card">
+                        <span class="stat-number">1</span>
+                        <div class="stat-label">Funded Research</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Demo & UI Showcase -->
+    <h1 class="section-title">App Demo & Interface</h1>
+        
+    <div class="demo-section">
+        <div class="demo-content">
+            <!-- Video Section -->
+            <div class="video-container">
+                <div class="demo-header">
+                    <h3><i class="fas fa-play-circle"></i> Watch Our App in Action</h3>
+                </div>
+                
+                <div class="video-wrapper">
+                    <video controls>
+                        <source src="resources/demo-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="video-info">
+                    <p>See how our privacy-oriented bus tracking system works in real-time</p>
+                </div>
+                <div class="qr-section  qr-container">
+                    <div class="qr-title">
+                        <i class="fas fa-mobile-alt"></i> Download Our App
+                    </div>
+                    <div class="qr-code">
+                        <img width="40%" src="resources/qr.png" alt="">
+                    </div>
+                    
+                    <div class="qr-note">
+                        Requires Android 8.0 or later
+                    </div>
+                </div>
+            </div>
+            
+            <!-- App UI Slider -->
+            <div class="slider-container">
+                <div class="slider-header">
+                    <h3><i class="fas fa-mobile-alt"></i> App User Interface</h3>
+                </div>
+                
+                <div id="appUICarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#appUICarousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#appUICarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#appUICarousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#appUICarousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#appUICarousel" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#appUICarousel" data-bs-slide-to="5"></button>
+                        <button type="button" data-bs-target="#appUICarousel" data-bs-slide-to="6"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="ui-slide">
+                                <div class="phone-mockup">
+                                    <div class="phone-frame">
+                                        <div class="screen-placeholder">
+                                            <img src="resources/demo1.png" alt="Home Screen">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Home Dashboard</h4>
+                                    <p>Clean and intuitive home screen showing bus routes, current location, and quick access to essential features.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ui-slide">
+                                <div class="phone-mockup">
+                                    <div class="phone-frame">
+                                        <div class="screen-placeholder">
+                                            <img src="resources/demo2.png" alt="Live Tracking">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Real-time Bus Tracking</h4>
+                                    <p>Live map showing bus locations with AI-powered clustering and privacy-preserving location sharing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ui-slide">
+                                <div class="phone-mockup">
+                                    <div class="phone-frame">
+                                        <div class="screen-placeholder">
+                                            <img src="resources/demo3.png" alt="Notifications">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Smart Notifications</h4>
+                                    <p>Customizable alerts and notifications to keep you informed about bus arrivals and schedule updates.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ui-slide">
+                                <div class="phone-mockup">
+                                    <div class="phone-frame">
+                                        <div class="screen-placeholder">
+                                            <img src="resources/demo4.png" alt="Settings">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Privacy Settings</h4>
+                                    <p>Comprehensive privacy controls allowing users to manage their location sharing preferences and data.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ui-slide">
+                                <div class="phone-mockup">
+                                    <div class="phone-frame">
+                                        <div class="screen-placeholder">
+                                            <img src="resources/demo5.png" alt="Settings">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Privacy Settings</h4>
+                                    <p>Comprehensive privacy controls allowing users to manage their location sharing preferences and data.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ui-slide">
+                                <div class="phone-mockup">
+                                    <div class="phone-frame">
+                                        <div class="screen-placeholder">
+                                            <img src="resources/demo6.png" alt="Settings">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Privacy Settings</h4>
+                                    <p>Comprehensive privacy controls allowing users to manage their location sharing preferences and data.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#appUICarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#appUICarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="tech-stack">
+        <div class="container">
+            <h2 class="section-title" style="color: #333;">Technology Stack</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="tech-item">
+                        <div class="tech-icon"><i class="fab fa-flutter"></i></div>
+                        <h5>Flutter</h5>
+                        <p>Cross-platform mobile development</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="tech-item">
+                        <div class="tech-icon"><i class="fab fa-aws"></i></div>
+                        <h5>AWS</h5>
+                        <p>Cloud infrastructure and backend services</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="tech-item">
+                        <div class="tech-icon"><i class="fas fa-brain"></i></div>
+                        <h5>Machine Learning</h5>
+                        <p>AI clustering and location prediction</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="tech-item">
+                        <div class="tech-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <h5>Geolocation</h5>
+                        <p>Real-time location tracking and mapping</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar"><img src="https://abj-paul.github.io/data/profile.jpeg"/></div>
+                        <h5><a href="https://abj-paul.github.io/">Abhijit Paul</a></h5>
+                        <p class="text-muted">Software Engineer, Samsung R&D Institute, Bangladesh</p>
+                        <p>Project leadership and research coordination</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar"><img src="resources/ahnaf.jpg"/></div>
+                        <h5>Ahnaf Mubasshir</h5>
+                        <p class="text-muted">Lecturer, Daffodil University, Bangladesh</p>
+                        <p>Backend development and system architecture</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar"><img src="resources/sadia.jpg"/></div>
+                        <h5>Sadia Tabassum</h5>
+                        <p class="text-muted">Graduate Student, IIT, University of Dhaka</p>
+                        <p>Frontend development and AI implementation</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar"><img src="resources/muntasir.jpg"/></div>
+                        <h5>Muntasir Mahmood</h5>
+                        <p class="text-muted">Investment Analyst at RSA Advisory Limited</p>
+                        <p>Grant and Financial Advisor</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar"><img src="resources/mehzabin.jpg"/></div>
+                        <h5>Mehzabin Haque</h5>
+                        <p class="text-muted">Lecturer, Daffodil University</p>
+                        <p>Content Creator and Software Development</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <div class="team-avatar"><a href="https://iit.du.ac.bd/about_iit/individual_teacher/69"><img src="resources/naushin mam.jpg"/></a></div>
+                        <h5><a href="https://iit.du.ac.bd/about_iit/individual_teacher/69">Dr. Naushin Nower</a></h5>
+                        <p class="text-muted">Project Supervisor, Professor, IIT, University of Dhaka</p>
+                        <p>Academic guidance and funding support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info">
+                        <h4><i class="fas fa-envelope"></i> Contact Information</h4>
+                        <p class="mb-4">Interested in our project? Have questions or want to collaborate? Reach out to us!</p>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6><i class="fas fa-user"></i> Contact Person</h6>
+                                <p>Sadia Tabassum<br>
+                                Institute of Information Technology<br>
+                                University of Dhaka</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="fas fa-envelope"></i> Email</h6>
+                                <p>bsse1219@iit.du.ac.bd</p>
+                                
+                                <h6><i class="fas fa-university"></i> Institution</h6>
+                                <p>University of Dhaka<br>
+                                Institute of Information Technology</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h6><i class="fas fa-info-circle"></i> Project Status</h6>
+                            <p>Currently in development with NCP Bangladesh showing interest in acquisition. 
+                            We are actively looking for partnerships and further development opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 বাস কই? - Privacy-Oriented Bus Tracking System. All rights reserved.</p>
+            <p class="mb-0">
+                <small>Developed with <i class="fas fa-heart text-danger"></i> by the University of Dhaka IIT Team</small>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
